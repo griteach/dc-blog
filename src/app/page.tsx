@@ -1,7 +1,10 @@
+import Image from "next/image";
+import Hero from "./components/Hero";
+
 export default function Home() {
   return (
-    <section className="bg-gray-400 ">
-      <h1>HELLO, WORLD!!!</h1>
-    </section>
+    <>
+      <Hero />
+    </>
   );
 }
