@@ -12,8 +12,8 @@ export default function PostCard({
       <Image
         src={`/images/posts/${path}.png`}
         alt={title}
-        width={300}
-        height={300}
+        width={250}
+        height={250}
       />
       <div>
         <time>{date.toString()}</time>
