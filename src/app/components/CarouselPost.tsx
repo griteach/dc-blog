@@ -8,7 +8,7 @@ export default async function Youmaylike() {
   const posts = await getNonFeaturedPosts();
 
   return (
-    <section>
+    <section className="my-8">
       <h2 className="text-2xl font-bold my-2">You May Like</h2>
       <MultiCarousel>
         {posts.map((post) => (
